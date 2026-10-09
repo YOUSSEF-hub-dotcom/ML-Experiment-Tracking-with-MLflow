@@ -1,0 +1,37 @@
+Virtual Environment
+
+mlflow_env/
+venv/
+env/
+ENV/
+
+Datasets & Heavy Files
+
+housing.csv
+*.csv
+
+MLflow Local Database & Runs (Optional: exclude if heavy, or track if required)
+
+mlruns/
+
+Screenshots folder at root (only deliverable screenshot in mlflow-task/ is needed)
+
+
+Project PDF & Local Map
+
+#37 Task.pdf
+PROJECT_MAP.md
+
+Python Bytecode & Cache
+
+pycache/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+OS & Editor Specific Files
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
